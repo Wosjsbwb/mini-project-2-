@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.rect{
+    display: flex;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   font-family: 'Gill Sans';
+   margin-top: 5px;
+   margin-left: 5px;
+}
+#cursor{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+}
